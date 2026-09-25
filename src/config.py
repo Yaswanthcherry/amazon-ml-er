@@ -59,6 +59,8 @@ TFIDF_TOP_K = 10
 
 # Minimum TF-IDF cosine similarity to keep a candidate (pre-filter before ML)
 TFIDF_MIN_SCORE = 0.05
+TFIDF_QUERY_BATCH_SIZE = 1000
+TFIDF_POOL_BATCH_SIZE = 10000
 
 # Maximum candidates per S1 entity fed into the ML model (across S2+S3 combined)
 MAX_CANDIDATES_PER_ENTITY = 30
